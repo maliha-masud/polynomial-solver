@@ -15,24 +15,24 @@ A math solver to solve large polynomials, which are a collection of terms where 
 Code Description:
 * Linked lists used to implement polynomials
 * Two classes: Term and Polynomial
-> **Term is nested class of polynomial
-> Members: Exponent, coefficient, pointer to (next) term**
+> * **Term is nested class of polynomial**
+> * **Members: Exponent, coefficient, pointer to (next) term**
 
 >**Polynomial members: pointer to (first) term, size (store no. of terms in polynomial)**
 * Implemented member functions of class Polynomial
->Input(): Input number of terms and enter coeffiecient and exponent of each term. Check validity and store polynomial in simplest form and in decreasing order of exponent
+>**Input():** Input number of terms and enter coeffiecient and exponent of each term. Check validity and store polynomial in simplest form and in decreasing order of exponent
 > Example: Entered:- 5n + 9n^2 - 12n + 7n^5, Stored:- 7n^5 + 9n^2 - 12n.
 
->Output():
+>**Output():**
 >* A term with coefficient c and exponent x must be displayed as cn^x
 >* If a term is not the first term, then the sign of the coefficient (+/-) must be displayed
 >* If the exponent of a term is 0 then do not output the variable ‘n’
 
->Add(): Overloaded '+' operator for this operation. Take polynomial as parameter, add with caller object and return resultant.
+>**Add():** Overloaded '+' operator for this operation. Take polynomial as parameter, add with caller object and return resultant.
 >* Done in O(n+m) time (n and m are number of terms in polynomials)
  
->Multiply(): Overloaded ' * ' operator for this operation. Take polynomial as parameter, multiply with caller object and resturn resultant.
+>**Multiply():** Overloaded ' * ' operator for this operation. Take polynomial as parameter, multiply with caller object and resturn resultant.
 >* Done in O(n*m) time (n and m are number of terms in polynomials)
  
->Evaluate(): Overloaded '.' operator for this operation. Evaluate the value of the polynomial using an input real number.
+>**Evaluate():** Overloaded '.' operator for this operation. Evaluate the value of the polynomial using an input real number.
 * Implemented default constructor, copy constructor, destructor, overloaded '=' operator (implements deep copy)
