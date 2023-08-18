@@ -411,11 +411,9 @@ public: //member functions of class Polynomial
     //-------------------- END OF MULTIPLY FUNCTION ----------------------
     //--------------------------------------------------------------------
 
-    ////--------------------------------------------------------------------
+    ////------------------------------------------------------------------
     //-------------------- FUNCTION FOR EVALUATE() -----------------------
 
-    //NOTE: Cannot overload '.' Operator in C++.
-    //Gives error: "expected an operator"
     double Evaluate(double n) { //take real value of n
         double result = 0;
         Term* ptr = first;

@@ -1,7 +1,7 @@
-//i202606_Main.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//Main.cpp : This file contains the 'main' function. Program execution begins and ends there.
 
 #include <iostream>
-#include "i202606_Classes.cpp"
+#include "Classes.cpp"
 using namespace std;
 
 int main()
