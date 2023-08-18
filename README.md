@@ -34,5 +34,5 @@ Code Description:
 >**Multiply():** Overloaded ' * ' operator for this operation. Take polynomial as parameter, multiply with caller object and resturn resultant.
 >* Done in O(n*m) time (n and m are number of terms in polynomials)
  
->**Evaluate():** Overloaded '.' operator for this operation. Evaluate the value of the polynomial using an input real number.
-* Implemented default constructor, copy constructor, destructor, overloaded '=' operator (implements deep copy)
+>**Evaluate():** Evaluate the value of the polynomial using an input real number.
+* Implemented default constructor, copy constructor, overloaded '=' operator (implements deep copy), and getters and setters
