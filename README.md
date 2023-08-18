@@ -15,10 +15,10 @@ A math solver to solve large polynomials, which are a collection of terms where 
 Code Description:
 * Linked lists used to implement polynomials
 * Two classes: Term and Polynomial
-> * **Term is nested class of polynomial**
-> * **Members: Exponent, coefficient, pointer to (next) term**
+> * Term is nested class of polynomial
+> * Members: Exponent, coefficient, pointer to (next) term
 
->**Polynomial members: pointer to (first) term, size (store no. of terms in polynomial)**
+> Polynomial members: pointer to (first) term, size (store no. of terms in polynomial)
 * Implemented member functions of class Polynomial
 >**Input():** Input number of terms and enter coeffiecient and exponent of each term. Check validity and store polynomial in simplest form and in decreasing order of exponent
 > Example: Entered:- 5n + 9n^2 - 12n + 7n^5, Stored:- 7n^5 + 9n^2 - 12n.
