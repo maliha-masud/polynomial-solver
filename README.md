@@ -1,5 +1,5 @@
 # Polynomial Solver
-## C++ program to add, multiply and evaluate polynomials
+## C++ program to add, multiply, and evaluate polynomials
 
 Project Description:
 A math solver to solve large polynomials, which are a collection of terms where each term has a variable exponent and a coefficient.
